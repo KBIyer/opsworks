@@ -7,7 +7,7 @@ script "Run a script" do
     echo "q3server:test25" | sudo chpasswd
     su - q3server
     wget https://gameservermanagers.com/dl/q3server
-    chmod +x /q3server
+    chmod +x q3server
     ./q3server install
   EOH
 end
