@@ -11,3 +11,4 @@ script "Run a script" do
     sh /home/q3server auto-install
     EOH
 end
+Chef::Log.info("********** Bye, World! **********")
