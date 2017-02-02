@@ -8,6 +8,6 @@ script "Run a script" do
     su - q3server
     wget https://gameservermanagers.com/dl/q3server
     chmod +x q3server
-    ./q3server auto-install
-  EOH
+    sh /home/q3server auto-install
+    EOH
 end
